@@ -1,0 +1,7 @@
+body {
+	padding: 5px;
+	margin: 5px;
+	background-image: url('./img/body-bg.jpg');
+    background-position: left bottom; 
+    background-repeat: repeat-x; 
+}

@@ -1,0 +1,264 @@
+
+.header {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 70px;
+	background-color: #2d2d2d;
+	vertical-align: top;
+}
+.header-inner{
+	max-width: 980px;
+	margin: 0 auto;
+	
+}
+
+.header-logo {
+	display: inline-block;
+	margin-top:30px;
+	padding-bottom: 20px;
+}
+@media (max-width: 400px) {
+.header {
+	width: 50%;
+	margin: 0 auto;
+	}
+}
+.header-container {
+	display: inline-block;
+	vertical-align: top;
+	font-family:oblique;
+	font-weight: bold;
+	font-size:13px;
+	text-decoration: none;
+	color: #000000;
+	}
+
+.header-img {
+	display: inline-block;
+	}
+
+.header-container-ul{
+	max-width: 100%;
+	margin: 0 auto;
+	list-style-type: none;	
+	margin-left: 30px;
+	margin top: 2px; 
+
+	}
+@media (min-width: 400px) {
+.header-container-ul{
+	max-width: 100%;
+	margin: 0 auto;
+	margin-left: 380px;
+}
+	}
+
+.header-container-link {
+
+	display:inline-block;
+	margin-top: 12px;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-bottom: 35px;
+	padding-top: 25px;
+	box-sizing: border-box;
+	border-left:1px solid;
+	border-right: 1px solid;
+	vertical-align: top;
+
+	}
+.header-container-link:hover {
+	border-bottom:solid #00ff00;
+
+}	
+.text {   
+color: #ffffff;
+text-decoration: none;
+}
+.text:hover{
+	color: #00ff00;
+}
+.main{
+	max-width: 980px;
+	margin: 0 auto;
+	vertical-align: top;
+	}
+	
+.main-аrticl {
+	max-width: 600px;
+	padding-left: 20px;
+
+}
+.main-capital{
+	font-weight: bold;
+	font-size:28px;
+}
+.headlines{
+	font-size:16px;
+}
+.main-input {
+border-radius: 30px;
+padding-left: 25px;
+max-width: 25%;
+height: 25px;
+margin-bottom: 80px;
+
+}
+.main-capital-next {
+	font-weight:bold;
+	font-size:28px;
+}
+
+.main-general{
+	display: inline-block;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+.aside{
+	max-width: 380px;
+	margin: 0 auto;
+	float: right;
+	vertical-align: top;
+
+}
+.aside-container{
+	display: inline-block;
+}
+.search{
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: top;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left:2px solid;
+	border-left: solid #00ff00;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	padding-left: 20px;
+}
+.what{
+	color: #bebebe;
+	border: 1px solid #bebebe;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 80px;
+
+}
+.catrgories{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left:2px solid;
+	border-left: solid #00ff00;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	margin-bottom: 18px;
+}
+
+.aside-link {
+	font-size: 16px;
+	list-style-type: none;
+	margin-bottom: 3px;
+	
+}
+.aside-link-text{
+	color: #1d941d;
+
+}
+.aside-link-text:hover {
+	color: #00ff00;
+}
+.aside-link-ul {
+	margin-bottom: 68px;
+	padding-left: 9px;
+}
+
+
+.stay{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left:2px solid;
+	border-left: solid #00ff00;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	padding-left: 20px;
+}
+
+.your {
+	color: #bebebe;
+	margin-top: 5px;
+	margin-left: 10px;  
+
+}
+.your-img {
+	display: inline-block;
+	margin-left: 150px;
+}
+.aside-your {
+	vertical-align: top;
+	border: 1px solid #bebebe;
+	margin-bottom: 67px;
+}
+.page {
+	border-top: 1px solid #bebebe;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+.page-previous {
+	color: black;
+	font-weight: bold;
+	margin-left: 10px;
+	text-decoration: none;
+
+}
+.page-next {
+	color: black;
+	float: right;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 45px; 
+}
+.page-next:hover {
+	color: #242dca;
+}
+.page-previous:hover {
+	color: #242dca;
+}
+
+.footer{
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 250px;
+	vertical-align: top;
+	background-color: #f8f8f8;
+
+}
+.footer-logo{
+	margin-top: 50px;
+
+}
